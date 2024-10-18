@@ -9,9 +9,9 @@ namespace GemPowerplant.CodingChallenge.Models
         public double Load { get; set; }
 
         [Required]
-        public Fuels Fuels { get; set; }
+        public Fuels? Fuels { get; set; }
 
         [Required]
-        public List<Powerplant> Powerplants { get; set; }
+        public List<Powerplant>? Powerplants { get; set; }
     }
 }

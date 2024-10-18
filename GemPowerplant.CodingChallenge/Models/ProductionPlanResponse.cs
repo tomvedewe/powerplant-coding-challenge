@@ -2,7 +2,7 @@
 {
     public class ProductionPlanResponse
     {
-        public string Name { get; set; }
+        public string? Name { get; set; }
         public double P { get; set; }
     }
 }

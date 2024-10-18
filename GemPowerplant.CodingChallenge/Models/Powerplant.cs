@@ -4,7 +4,7 @@ namespace GemPowerplant.CodingChallenge.Models
 {
     public class Powerplant
     {
-        public string Name { get; set; }
+        public string? Name { get; set; }
 
         [JsonConverter(typeof(JsonStringEnumConverter<PowerplantType>))]
         public PowerplantType Type { get; set; }

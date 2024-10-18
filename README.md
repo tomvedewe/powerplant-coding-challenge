@@ -4,7 +4,7 @@ This is a REST API built with ASP.NET Core that calculates the production plan f
 
 ## Requirements
 
-- .NET 6.0 SDK or later
+- .NET 8.0 SDK 
 - Docker (optional, for containerized deployment)
 
 ## Getting Started
@@ -12,13 +12,13 @@ This is a REST API built with ASP.NET Core that calculates the production plan f
 ### Clone and Setup
 
 1. Open a terminal and clone the repository:
-	```
+   ```
    git clone https://github.com/tomvedewe/powerplant-coding-challenge.git
    ```
 2. Navigate to the project directory:
-	```
-	cd powerplant-coding-challenge
-	```
+   ```
+   cd powerplant-coding-challenge
+   ```
 ## Building and Running the Application
 
 ### Using .NET CLI
@@ -28,7 +28,7 @@ This is a REST API built with ASP.NET Core that calculates the production plan f
    dotnet build
    ```
 2. Navigate to the folder with the csproj file
-    ```
+   ```
    cd GemPowerplant.CodingChallenge
    ```
 3. Run the application:
@@ -41,9 +41,9 @@ This is a REST API built with ASP.NET Core that calculates the production plan f
 
 1. Clone this repository
 2. Navigate to the project directory
-    ```
-	cd powerplant-coding-challenge
-	```
+   ```
+   cd powerplant-coding-challenge
+   ```
 3. Build the Docker image:
    ```
    docker build -t powerplant-api .
